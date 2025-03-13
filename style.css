@@ -1,0 +1,36 @@
+body {
+    background-color:lightblue;
+    /*font-family: Arial, sans-serif;*/
+   /* font-weight: bold;*/
+   font-size: medium;
+}
+
+h1 {
+    color:blue;
+    font-family: Calibri;
+    text-align: center;
+    font-size: ;
+
+}
+
+h2 {
+    color:forestgreen;
+
+
+
+}
+
+h3 {
+
+    color:Purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+a {
+
+    color:red;
+    font-weight: bold;
+}

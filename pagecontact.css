@@ -1,0 +1,116 @@
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style du titre principal */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Style des figures et images */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Style de la liste des métiers */
+ul {
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+/* Style de la vidéo */
+video {
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+    font-size: 0.8em;
+}
+
+/* Responsive design pour les petits écrans */
+@media (max-width: 1024px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    figure img, video {
+        width: 100%;
+        height: auto;
+    }
+}
